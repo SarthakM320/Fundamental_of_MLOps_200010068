@@ -20,5 +20,15 @@ Ans:
     different although there is a significant overlap.
   - While MLOps bridges the gap between cuilding of ML models and their execution, AIOps focuses on automating incidents management and intelligent root cause analysis.
 
+<hr>
+
 ## 2. ***Interpretable Machine Learning*** is another concept that has attracted lot of attention recently & is promoted by most of the MLOps frameworks. Explain what it means for a linear regression model to be interpretable. You may find [this resource](https://christophm.github.io/interpretable-ml-book/) useful.
 
+
+
+
+<hr>
+
+# Problem 2
+
+<img src = "AWS_console.png">
