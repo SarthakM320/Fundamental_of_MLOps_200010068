@@ -31,4 +31,4 @@ Ans:
 
 # Problem 2
 
-<img src = "AWS_console.png">
+<img src = "AWS_Console.png">
