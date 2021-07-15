@@ -30,5 +30,43 @@ git commit -m "Storage added"
 dvc push
 git push origin main
 
+mkdir models
+mkdir src
+mkdir metrics
+mkdir data/preprocessed
+
+git checkout -b expt1_dt
+touch expt.py
+
+dvc add models/model.pkl
+git add models/model.pkl.dvc models/.gitignore
+
+dvc add metrics/acc_f1.json
+git add metrics/acc_f1.json.dvc metrics/.gitignore
+
+dvc add data/preprocessed
+git add data/preprocessed.dvc data/.gitignore
+
+git commit -m "Model and metrics added"
+
+dvc push
+git push origin expt1_dt
+
+git checkout -b expt2.rf
+dvc add models/model.pkl
+git add models/model.pkl.dvc models/.gitignore
+
+dvc add metrics/acc_f1.json
+git add metrics/acc_f1.json.dvc metrics/.gitignore
+
+dvc add data/preprocessed
+git add data/preprocessed.dvc data/.gitignore
+
+git commit -m "Model and metrics added"
+
+dvc push
+git push origin expt2_rf
+
+
 
 ```
