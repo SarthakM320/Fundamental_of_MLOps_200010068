@@ -74,8 +74,8 @@ git push origin expt2_rf
 
 ## Values
  - Decision tree Classifier :
-   - F1 Score -  
-   - Accuracy - 
+   - F1 Score - 0.8070175439 
+   - Accuracy - 0.9994206562
  - Random Forest Classifier:
    - F1 Score - 0.83333
    - Accuracy - 0.9995084
